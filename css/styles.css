@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
     font-size: 12px;
 }
-
+/*POPUP SWITCH ICON STYLING */
 .option{
     position: absolute;
     top: 25px;
@@ -42,7 +42,7 @@ body{
     display: block;
 }
 
-/*STYLING FOR BLOCKS (BEM) */
+/*CARDS:: BLOCK STYLING*/
 .block{
     position: relative;
     display: flex;
@@ -52,7 +52,6 @@ body{
     margin: 0 auto;
 
 }
-
 .card{
     background-color: #F48C06;
     width: 468px;
@@ -61,6 +60,121 @@ body{
     margin: 20px;
 }
 
+.card2{
+    width: 273px;
+    height: 220px;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.inset{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/*CARDS(RECTANGLE EX) 
+CARDS2(CIRCLE EXAMPLE):: ELEMENT STYLING*/
+
+.card__start{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+.card2__start{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.card__center{
+    display: flex;
+    justify-content: center;
+  
+}
+.card2__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__end{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.card2__end{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.card__spacebetween{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card2_spacebetween{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.card__spaceeven{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+   
+}
+.card2__spaceeven{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.card__grow{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/*INSET:: ELEMENT STYLING*/
+.inset__start{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.inset__end{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+
+}
+
+/*CARDS:: MODIFIER STYLING*/
+.card2_small-red{
+    height: 220px;
+    width: 270px;
+    background-color: #6A040F;
+
+}
+.card2_small-blue{
+    height: 220px;
+    width: 270px;
+    background-color: #03071E;
+
+}
+
+
+/*SQUARE:: BLOCK SYTLING */
 .square{
     background-color: #9D0208;
     min-height: 78px;
@@ -71,47 +185,14 @@ body{
 
 }
 
+/*SQUARE:: ELEMENT SYTLING */
 
-/*STYLING FOR ELEMENTS? */
-
-.card__start{
-    display: flex;
-    justify-content: start;
-    align-items: flex-end;
+.square__lined{
+    border: 1px solid black;
 }
 
-.card__center{
-    display: flex;
-    justify-content: center;
-  
-}
 
-.card__end{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.card__spacebetween{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.card__spaceeven{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-   
-
-}
-.card__grow{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-}
-
-/*STYLING FOR MODIFIERS? */
+/*SQUARE:: MODIFIER SYTLING */
 
 .square_low{
     align-self:flex-end;
@@ -121,16 +202,19 @@ body{
     height: 64px;
     justify-content: center;
     align-items: center;
+}
 
+.square_shadow{
+    box-shadow: 3px 3px 5px #00000040;
 }
 .square_tall{
     display: flex;
     height: 120px;
     justify-content: center;
     align-items: center;
-    
 }
 
 .square_grow{
     flex-grow: 2;
 }
+

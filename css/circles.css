@@ -1,3 +1,58 @@
+/*CONTAINTS STYLING FOR CIRCLES AND SEPARATE COLORS THE 
+CARD STYLING LOCATED ON MAIN STYLES CSS */
+
 body{
     background-color: #FAA307;
+}
+
+.block{
+    justify-content: flex-start;
+}
+
+.option{
+    position: absolute;
+    top: 25px;
+    left: -50px;
+}
+.circle{
+    font-size: 52px;
+    color: #9D0208;
+}
+.dots{
+    margin-top: -56px;
+    margin-left: 4px;
+    color: #ffdaa9;
+    font-size: 45px;
+}
+.popup{
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-left: 55px;
+    margin-top: -35px;
+    display: none;
+}
+.option:hover .circle{
+    color: #ffdaa9;
+}
+.option:hover .dots{
+    color: #9D0208;
+}
+
+/*CIRCLES:: BLOCK STYLING*/
+.circles{
+    height: 50px;
+    width: 50px;
+    background-color: #748CAB;
+    border-radius: 100%;
+    margin: 10px;
+    
+}
+
+/*CIRCLES:: MODIFIER STYLING*/
+.circles_low{
+    align-self: flex-end;
 }
