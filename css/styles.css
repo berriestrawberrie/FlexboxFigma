@@ -1,0 +1,29 @@
+body{
+    background-color: #370617;
+}
+
+/*STYLING FOR BLOCK */
+.card{
+    background-color: #F48C06;
+    width: 468px;
+    height: 160px;
+    border-radius: 8px;
+
+}
+
+.square{
+    background-color: #9D0208;
+    height: 78px;
+    width: 78px;
+    border-radius: 4px;
+    margin: 20px;
+}
+
+/*STYLING FOR ELEMENTS? */
+
+.card-start{
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
