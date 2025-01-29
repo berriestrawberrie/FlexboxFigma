@@ -6,8 +6,45 @@ body{
     font-size: 12px;
 }
 
+.option{
+    position: absolute;
+    top: 25px;
+    left: 40px;
+}
+.circle{
+    font-size: 52px;
+    color: #03071E;
+}
+.dots{
+    margin-top: -56px;
+    margin-left: 4px;
+    color: #748CAB;
+    font-size: 45px;
+}
+.popup{
+    color: black;
+    font-size: 14px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-left: 55px;
+    margin-top: -35px;
+    display: none;
+}
+.option:hover .circle{
+    color: #748CAB;
+}
+.option:hover .dots{
+    color: #03071E;
+}
+.option:hover .popup{
+    display: block;
+}
+
 /*STYLING FOR BLOCKS (BEM) */
 .block{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
